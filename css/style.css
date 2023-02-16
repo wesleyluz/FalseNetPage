@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    background-image: 
+    url(
+        https://assets.nflxext.com/ffe/siteui/vlv3/83e8c151-107d-4e8f-b95a-d2ba99d49bb9/f07b57b2-2932-42ad-adda-058c4499f034/BR-pt-20230213-popsignuptwoweeks-perspective_alpha_website_large.jpg
+        );
+    background-size: cover;
+    background-position: top center;
+    background-blend-mode: overlay;
+}
+body::after
+{
+    content: '';
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .8;
+    z-index: -1;
+}
+
+#heading
+{
+    /*background-color: blue;*/
+}
+
+#heading .main
+{
+    margin-top: 20px;
+    padding: 15px 0 0 0;
+    display: flex;
+    width: max-width;
+    height: 100px;
+    justify-content: space-between;
+    
+}
+#heading .select-itens
+{
+    margin: 5px 15px;
+    padding: 10px 20px 0 20px;
+    display: flex;
+    width: max-width;
+    height: 60px;
+    justify-content: space-between;
+   /* background-color: red;*/
+
+}
+
+
+#heading .logo
+{      
+    margin: 0 0 12px 0;
+    width:  350px;
+    background-image: url(../img/NetFlix_Logo.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#heading .ui-select
+{
+    width: 120px;
+    height: 40px;
+    margin: 5px 35px 10px 0;
+    background-color:black;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+#heading .lang-options
+{
+    background-color: gray;
+}
+/*Button style*/
+#heading .select-itens input
+{
+    border-radius: 0%;
+    background-color: #e50914;
+    width: 90px;
+    
+}
+#heading .select-itens input:hover
+{
+    background-color: rgba(255, 0, 0, 1);
+    
+}
+#heading .select-itens input:active
+{
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
