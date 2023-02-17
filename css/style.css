@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    letter-spacing: 0 !important;
 }
 
 body
@@ -27,19 +28,53 @@ body::after
     opacity: .8;
     z-index: -1;
 }
-
-#heading
+div
 {
-    /*background-color: blue;*/
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
 }
 
+form
+{
+    display: block;
+    margin-top: 0em;
+}
+
+p
+{
+    display: block;
+    
+}
+a {
+    color: #0071eb;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+a {
+    background-color: transparent;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
 #heading .main
 {
-    margin-top: 20px;
+    
     padding: 15px 0 0 0;
     display: flex;
-    width: max-width;
-    height: 100px;
+    width: 100%;
+    height: 120px;
     justify-content: space-between;
     
 }
@@ -97,3 +132,144 @@ body::after
 {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
+
+#main-page .main-card
+{
+    margin: 0 auto;
+    background-color: transparent;
+    border-bottom: 8px solid #222;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 50px 5%;
+    position: relative;
+}
+#main-page .info-card
+{
+    margin: 0 auto;
+    max-width: 950px;
+    padding: 75px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+#main-page .info-card h1
+{
+    display: block;
+    margin-block-start: 0.67rem;
+    margin-block-end: 0.67rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 500;
+    color: #fff;
+    font-size: 1.5cm;
+}
+
+#main-page .info-card h1
+{ 
+    margin: 0 auto;
+    max-width: 640px;
+}
+
+#main-page .info-card h2
+{
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 0.5cm;
+
+}
+#main-page .info-redirect
+{
+    display: flex;
+    flex-direction: column;
+
+}
+#main-page .info-site
+{
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+#main-page .info-redirect a
+{ 
+    text-decoration: none;
+}
+#main-page .main-card.main-card-no-border
+{
+    border-bottom: none;
+    padding-bottom: 0;
+}
+#main-page .footer-card
+{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+#main-page .site-footer-wrapper
+{
+    margin-top:0;
+}
+#main-page .site-footer-wrapper
+{
+    color: #737373;
+    font-size: 1em;
+    min-width: 190px;
+    padding-bottom: 20px;
+    position: relative;
+    width: 100%;
+}
+#main-page .footer-divider
+{
+    display: none;
+}
+#main-page .footer-divider
+{
+    border-top: 1px solid #e6e6e6;
+    height: 0;
+    width: 200%;
+}
+#main-page .site-footer
+{
+    padding-top:0;
+    margin: 0 auto;
+    width: 90%;
+}
+#main-page .footer-top
+{
+    margin: 0 0 30px;
+    padding: 0;
+}
+#main-page .footer-top-a {
+    color: #737373;
+}
+
+ul.structural
+{
+    margin: 0;
+    padding: 0;
+}
+#main-page .footer-links {
+    box-sizing: border-box;
+    font-size: 20px;
+    max-width: 1000px;
+}
+ul.structural>li
+{
+    list-style: none;
+    margin-left: 0;
+}
+#main-page .footer-links-item {
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 16px;
+    min-width: 100px;
+    padding: 0 12px 0 0;
+    vertical-align: top;
+    width: 25%;
+}
+
+
